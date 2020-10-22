@@ -628,6 +628,23 @@ i {
   .about {
     margin-top: 80px;
   }
+  .about .counters {
+    margin-top: 70px;
+  }
+  .about .count {
+    display: unset;
+  }
+
+  .about .icon {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+  .about .count span {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    margin-bottom: -20px;
+  }
   .features .header,
   .about .header {
     text-align: center;
@@ -675,6 +692,7 @@ i {
   .header {
     width: 100% !important;
   }
+
   .subscribe .button {
     margin: 15px auto;
   }
